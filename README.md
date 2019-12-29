@@ -8,7 +8,7 @@ Trained Set and test set raw data is analysed. Real time data set is cleansed to
 
 Script works in a way like,
 
-Data download and unzip the folder in the newly created directory "UCI HAR Dataset". If the file doesn't exist, then file will be downloaded using download command in the current working directory.After downloading the file, data is extracted by "read.table" command to be stored in the local variables. Creating the single data set named "dataSet" by merging the training and test datasets. while subjects train and test data sets are merged  . 
+Download the folder and unzip the folder in the newly created directory "UCI HAR Dataset". If the file doesn't exist, then file will be downloaded using download command in the current working directory.After downloading the file, data is extracted by "read.table" command to be stored in the local variables. Creating the single data set named "dataSet" by merging the training and test datasets. while subjects train and test data sets are merged  . 
 
 while training lables and test lables are merged in the same way as datasets in a separate dataset named "activity". 
 From features file, mean or standard deviation column names are separated from features list. Using the index list we extract those data from dataset as part of cleaning process.
