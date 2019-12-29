@@ -1,0 +1,21 @@
+
+##codebook for variables used in the Code
+
+fileName   			  ----  Name of the file that contains the data
+url 	   			    ----  link to the file to be downloaded from the web
+dir 	   			    ----  Name of the directory that contains the files need to be cleaned
+subject_test  	  ----  subjects details who are under test observations
+subject_train  	  ----  subjects details who are under training observations
+X_testset      	  ----  measurement values of test subjects
+X_trainset 			  ----  measurement values of training subjects
+y_testset 			  ----  measurement labels of test subjects
+y_trainset 			  ----  measurement labels of training subjects
+activity_labels	  ----  all the measurement labels of test & train subjects details
+features			    ----  all the features recorded for observations.
+dataSet           ----  contains data of train and test subject mean and standard deviation values in the data frame manner 
+subject           ----  contains subjects of both test and training categories in the data frame format
+activity          ----  list of all activities lables at levels
+CleanFeatureNames ----  removing the "()" in the activity labels
+activity_group    ----  taking activities of dataset as factors and grouping as levels for efficient calculation
+primaryDataset   	----  melting and dcasting is done on the data
+second_Dataset    ----  new data set which is processed to be tidy enough.
